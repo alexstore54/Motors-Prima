@@ -1,0 +1,28 @@
+.animation_start {
+    animation-name: bounce;
+    animation-duration: .7s;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(0);
+    }
+    30%{
+        transform: translateY(-40px);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    70%{
+        transform: translateY(-15px);
+    }
+    80%{
+        transform: translateY(2px);
+    }
+    90%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

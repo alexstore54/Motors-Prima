@@ -1,0 +1,43 @@
+.headerbgcolor {
+    background-color: var(--primary-violet);
+    user-select: none;
+    -webkit-box-shadow: 0px 10px 17px 0px rgba(99,99,99,0.58);
+    -moz-box-shadow: 0px 10px 17px 0px rgba(99, 99, 99, 0.58);
+    box-shadow: 0px 2px 21px 0px rgba(99,99,99,0.5);
+}
+
+.headerbgcolor > h5 {
+    color: #000;
+    font-size: 1.75rem;
+}
+
+.img_body_container {
+    width: 100%;
+}
+
+.img_body_container > img {
+    max-width: 100%;
+}
+
+.popup_body_bg {
+    background-color: #C2D9FF;
+}
+
+.download_button {
+    background-color: var(--primary);
+    
+    color: #000;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 23%;
+    right: 36%;
+    transition: all 0.15s !important;
+}
+
+.download_button:hover {
+    color: #fff;
+        -webkit-box-shadow: 0px 0px 23px 5px rgba(142,143,250,1);
+        -moz-box-shadow: 0px 0px 23px 5px rgba(142,143,250,1);
+        box-shadow: 0px 0px 23px 5px rgba(142,143,250,1);
+        filter: contrast(1.5);
+}

@@ -1,0 +1,45 @@
+/******* Customized Bootstrap ********/
+
+
+    $primary: #8E8FFA;
+    $secondary: #7752FE;
+    $light: #C2D9FF;
+    $dark: #190482;
+    
+
+$font-family-base: 'Ubuntu', sans-serif;
+
+$headings-font-family: 'Barlow', sans-serif;
+
+$body-color: #596277;
+
+$headings-color: $secondary;
+
+$headings-font-weight: 700;
+
+$display-font-weight: 700;
+
+$enable-responsive-font-sizes: true;
+
+$border-radius: 0px;
+
+$link-decoration: none;
+
+$enable-negative-margins: true;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),  // 0.25rem
+  2: ($spacer * .5),   // 0.5rem
+  3: $spacer,          // 1rem
+  4: ($spacer * 1.5),  // 1.5rem
+  5: ($spacer * 3),    // 3rem
+  6: ($spacer * 4),     // 4rem
+  7: ($spacer * 5),     // 5rem
+  8: ($spacer * 5.5),     // 5.5rem
+  9: ($spacer * 6),     // 6rem
+  10: ($spacer * 8),     // 8rem
+);
+
+@import "bootstrap/scss/bootstrap";
